@@ -101,7 +101,7 @@ logo =f"""
        ║          ╚══╝                    ║
        ║                                  ║
        ║     [VERSION = {version}]              ║
-       ║     [By Nishant]                 ║
+       ║     [By CodingSangh]                 ║
        ╚══════════════════════════════════╝
 \n"""
 options= """
@@ -110,7 +110,7 @@ options= """
      [5] About Tool           [0] Exit
 """
 
-system("""command -v lolcat > /dev/null 2>&1 || { echo >&2 "...";echo "";echo "";echo "[^^] lolcat Installing...";pip install git+https://github.com/Nishant 2009/lolcat.git;clear; }
+system("""command -v lolcat > /dev/null 2>&1 || { echo >&2 "...";echo "";echo "";echo "[^^] lolcat Installing...";pip install git+https://github.com/CodingSangh/lolcat.git;clear; }
 command -v toilet > /dev/null 2>&1 || { echo >&2 "...";echo "";echo "";echo "[^^] Toilet Installing...";pkg install toilet -y && pkg install figlet -y;clear; }
 """)
 
@@ -178,7 +178,7 @@ def Decrypt():
 
 #ABOUT
 def About ():
-    print(run(["lolcat"],input = "[•] Tool Name :        Bash Encrypter & Decrypter\n[•] Coder     :        Nishant Pratap \n[•] Github    :        https://github.com/CodingSangh \n[•] Coded On  :        17-04-2004 \n[•] Telegram  :        t.me/hackernishant" , capture_output= True, text=True).stdout)
+    print(run(["lolcat"],input = "[•] Tool Name :        Bash Encrypter & Decrypter\n[•] Coder     :        CodingSangh\n[•] Github    :        https://github.com/CodingSangh \n[•] Coded On  :        17-04-2004 \n[•] Telegram  :        t.me/codingsangh" , capture_output= True, text=True).stdout)
 
 #PYTHON ENCRYPT EMOJI
 
